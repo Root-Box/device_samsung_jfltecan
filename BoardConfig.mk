@@ -29,6 +29,9 @@
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jfltecan
 
+# Toolchain
+TARGET_GCC_VERSION := 4.6
+
 # Kernel
 TARGET_KERNEL_CONFIG         := jf_can_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := cyanogen_jf_defconfig
